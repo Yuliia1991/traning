@@ -48,17 +48,24 @@
 
     //} ???????
 
-    function countVowel(str) {
-        let count = 0;
-        const vowel = "a, u, i, o, e";
-        str = str.toLowerCase();
-        for (let i = 0; i < str.length; i += 1) {
-            console.log(str[i]);
-            if (vowel.includes(str[i])) {
-                count += 1;
-            }
-        } return count;
-        
-    }
-    console.log(countVowel("HELLO WORLD"));
-    console.log(countVowel("Junior Web Developer"));
+  //const apartament = {
+    //descr: "Spacious apartment in the city center",
+    //rating: 4,
+   // price: 2153,
+  //}
+  //const keys = Object.keys(["descr", "rating", "price"]);
+  //const values = ["Spacious apartment in the city center", 4, 2153];
+  //for (const values of keys);
+  //console.log (values);
+  //console.log (apartament["values"]);
+  function calculateTotalPrice(productName) {
+    const products = [
+      { name: "Radar", price: 1300, quantity: 4 },
+      { name: "Scanner", price: 2700, quantity: 3 },
+      { name: "Droid", price: 400, quantity: 7 },
+      { name: "Grip", price: 1200, quantity: 9 },
+    ];
+    let totalPrice = price * quantity;
+    for()
+  }
+  
